@@ -18,7 +18,7 @@ app.use(express.static('Restaurant'));
 app.use('/api/members', require('./routes/api/members'));
 
 
-const mongoURI = 'mongodb+srv://rustblits:root12345@dbcluster.br4aa.mongodb.net/DB_Mongo?retryWrites=true&w=majority&appName=DBCluster';
+const mongoURI = 'mongodb+srv://username:passworf@dbcluster.br4aa.mongodb.net/DB_Mongo?retryWrites=true&w=majority&appName=DBCluster';
 
 mongoose.connect(mongoURI, {
   useNewUrlParser: true,
