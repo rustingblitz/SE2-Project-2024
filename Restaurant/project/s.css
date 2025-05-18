@@ -1,0 +1,61 @@
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 200px;
+   margin: auto;
+}
+.custom-fieldset {
+    padding: 5px;
+    /* text-align: center;
+    justify-content: center;
+    align-items: center; */
+  width: 200px;
+  height: 280px;
+  padding: 20px; 
+  background-color: rgb(216, 183, 125);
+  border: 2px solid #ffffff;
+  border-radius: 10px; 
+}
+.button:hover{
+  opacity: 0.5;
+}
+.button{
+  background-color: #d78446;
+  width: 200px;
+  height: 35px;
+  border: none;
+  border-radius: 10px;
+}
+.text-box{
+  border-radius: 10px;
+  border: none;
+  width: 200px;
+  height: 30px;
+}
+.body {
+  background-image: url('C:/Users/Ahmed Eid/Downloads/Facualty Courses/Second Year - Second Term/Wen Design-1/Section/Demo Project/project/img1.jpeg');
+  /* Replace 'background.jpg' with the path to your image */
+  background-size: cover;
+  /* This property ensures that the background image covers the entire body */
+  background-repeat: no-repeat;
+
+}
+h2{
+  
+  text-align: center;
+  color: white;
+}
+.link:hover{
+  opacity: 0.5;
+  color: #fa6d01;
+}
+.pages-f-i {
+  padding-left: 0px;
+  color: #fa6d01;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+.insta {
+  height: 20px;
+}

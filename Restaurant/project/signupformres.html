@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        header {
+            background-color: #f5eadb;
+            padding: 10px;
+        }
+        #hero-section {
+            background-image: url("");
+            background-size: cover;
+            background-position: center;
+            padding: 100px;
+            text-align: center;
+            color: #d78446;
+            font-size: 20px;
+        }
+        
+        fieldset {
+            background-color: rgb(216, 183, 125);
+            border-radius: 30px;
+            width: 50%;
+            margin: auto;
+            padding: 20px;
+        }
+        
+        legend {
+            color: white;
+            text-align: center;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        
+        input[type="text"],
+        input[type="password"],
+        input[type="tel"],
+        input[type="email"],
+        select {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        
+        select {
+            height: 40px;
+        }
+        
+        .checkbox-list {
+            margin-top: 10px;
+        }
+        
+        .checkbox-list label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        
+        .submit {
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        .submit input[type="submit"] {
+            width: 100%;
+            height: 40px;
+            background-color: #d78446;
+            color: white;
+            font-size: 16px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        .submit input[type="submit"]:hover {
+            background-color: #efb4ab;
+        }
+        
+        @media (max-width: 768px) {
+            fieldset {
+                width: 80%;
+            }
+        }
+    </style>
+    <title>Sign Up - Restaurant</title>
+</head>
+<body body background="img1.jpeg">
+    <header>
+    </header>
+    <section id="hero-section">
+        <h1>Join Our Restaurant</h1>
+        <p>Discover the finest flavors and enjoy a memorable dining experience.</p>
+    </section>
+    <div id="form1">
+      <form>
+        <fieldset>
+            <legend >Sign Up</legend>
+            <div id="inform1">
+                <label>Full Name</label>
+                <input type="text" required>
+                
+                <label>Email</label>
+                <input type="email" required>
+                
+                <label>Phone Number</label>
+                <input type="tel" required>
+                
+                <label>Password</label>
+                <input type="password" required minlength="8">
+                
+                <label>Preferred Dining Location</label>
+                <select required>
+                    <option value="">Select an option</option>
+                    <option value="shebin el-kom">Shebin El-Kom</option>
+                    <option value="alexandria">Alexandria</option>
+                    <option value="cairo">Cairo</option>
+                </select>
+                
+                <div class="checkbox-list">
+                    <label>Preferred Type Of Food</label>
+                    <label><input type="checkbox" name="Preferred Type Of Food" value="western"> Western</label>
+                    <label><input type="checkbox" name="Preferred Type Of Food" value="egyptian"> Egyptian</label>
+                    <label><input type="checkbox" name="Preferred Type Of Food" value="arabian"> Arabian</label>
+                </div>
+            </div>
+    
+            <div class="submit">
+                <input type="submit" value="Sign Up">
+            </div>
+            </fieldset>
+            </form>
+            </div>
+            </body>
+            </html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html >
+    <head>
+        <meta charset="UTF-8">
+        <link href="s.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/
+        ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-
+        SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7
+        oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body background="../project/img1.jpeg">
+        
+<div class="left"> </div>
+<div class="right"> </div>
+<div class="center"> 
+<form action="../saleh/restaurant.html" name="myForm" onsubmit="return test()">
+   
+    <fieldset class="custom-fieldset">
+    <legend style="color: white; size: 20px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ; text-align: center; font-size:x-large;">log in</legend>
+        
+
+    <label> email </label> <br>
+    <input type="email" placeholder="mark@gmail.com" class="text-box" name="us" for="uss">
+    
+    <label> password </label> <br>
+    <input type="password" class="text-box" maxlength="12" pattern="[2a-Za-0-9]" name="ps" for="pss">
+    <br>
+    <br>
+   <input type="submit" value="log in " class="button">
+   <br>
+   <br>
+   <input type="button" value="sign up" class="button"    onclick="window.location.href='signupformres.html';"   >
+   <br>
+   <a href="" class="link"> forget password</a>
+   <p class="pages-f-i">LOGIN WITH : <a href="https://www.instagram.com/" target="_blank"><img class="insta"
+    src="../saleh/instagram.png"></a> <a href="https://www.facebook.com/" target="_blank"><img
+    class="insta" src="../saleh/facebook.png"></p>
+        </fieldset>
+        
+ </form>
+
+ <script>
+    function test() {
+        var us = ["mohamed@gmail.com", "ahmed@gmail.com", "saleh@gmail.com"];
+        var pass = ["123", "1234", "12345"];
+        var name = document.forms["myForm"]["us"].value;
+        var password = document.forms["myForm"]["ps"].value;
+    
+        if (name === "" || password === "") {
+            alert("Name and password cannot be empty");
+            return false;
+        }
+    
+        for (var i = 0; i < 3; i++) {
+            if (name === us[i] && password === pass[i]) {
+                return true;
+            }
+        }
+    
+        alert("Invalid email or password");
+        return false;
+    }
+    </script>
+
+</div>
+<div class="bottom"> </div>
+
+        
+    </body>
+</html>

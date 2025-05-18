@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Login</title>
+</head>
+<body>
+  <div class="background">
+    <div class="form-container">
+      <div class="form-box">
+        <h2>Login</h2>
+        <form id="loginForm" action="/api/members/login" method="POST">
+        <label>Username: <input type="text" name="username" required> </label>
+        <label>Password: <input type="password" name="password" required> </label>
+          <button class="form-btn" type="submit">Login</button>
+        </form>
+        <p>
+            Don't have an account?  
+            <a href="http://localhost:9001/signuppage.html" class="form-link">Sign Up</a>
+          </p>
+          
+      </div>
+    </div>
+  </div>
+</body>
+</html>
