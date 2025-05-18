@@ -3,7 +3,7 @@
 const mongoose = require('mongoose');
 const faker = require('faker');
 
-const mongoURI = 'mongodb+srv://rustblits:root12345@dbcluster.br4aa.mongodb.net/DB_Mongo?retryWrites=true&w=majority&appName=DBCluster';
+const mongoURI = 'mongodb+srv://username:password@dbcluster.br4aa.mongodb.net/DB_Mongo?retryWrites=true&w=majority&appName=DBCluster';
 
 const User = mongoose.model('User', new mongoose.Schema({
   username: String,
